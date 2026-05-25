@@ -46,7 +46,7 @@ for i, batch in enumerate(batch_list(chunks, 20)):  # 20 chunks at a time
         vector_store = QdrantVectorStore.from_documents(
             documents=batch,
             embedding=embedding_model,
-            url="https://c1c9578b-ad6d-46a5-b68c-677a8a0f41fc.sa-east-1-0.aws.cloud.qdrant.io",
+            url="https://f98112a2-9a57-4336-b9bf-4753793b91fc.eu-central-1-0.aws.cloud.qdrant.io",
             api_key=os.getenv("Qdrant_api"),
             collection_name="learning_rag",
             force_recreate=True  # only on first batch
