@@ -22,7 +22,7 @@ task from the queue and then run it using multiprocessing and workers
 
 To run rq workers simply run the command rq worker but since I am using an online redis here there fore 
 i need to run using this complete command provding the url of queue(redis):
-rq worker --url rediss://default:gQAAAAAAAURhAAIncDEzODMzZTU3MDIyOTM0ZDY5YjYxMDk2ODYxYjRkODE5NHAxODMwNDE@golden-woodcock-83041.upstash.io:6379 --worker-class rq.worker.SimpleWorker
+rq worker --url rediss://default:gQAAAAAAAhO3AAIgcDJjNjM2YzdkM2ExYjg0MTlkODE1ZDgzMTBhMDMxM2M1NQ@liberal-basilisk-136119.upstash.io:6379 --worker-class rq.worker.SimpleWorker
 
 If you are on docker or local runing then simple rq worker will work since it looks for default
 localhost connection of redis i.e redis runing in the docker
