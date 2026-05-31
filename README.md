@@ -4,6 +4,7 @@
 - **Vector Database:** Qdrant  
 - **Chat Completion Models:** Gemini, GROQ (LLaMA 3.1 8B Instant)  
 - **Caching / Storage:** Upstash Redis (Cloud)
+- **Memory Layer:** mem0 (Cloud)
 
 ---
 
